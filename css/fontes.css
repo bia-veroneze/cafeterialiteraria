@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "fonte01";
+    src: url(../fontes/fonte01.otf);
+}
+
+@font-face {
+    font-family:"Belatty" ;
+    src: url(../fontes/Bellaty.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../fontes/EpikaRegular.otf);
+}
+
+@font-face {
+    font-family:"media" ;
+    src: url(../fontes/EpikaMedium.otf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fontes/EpikaBold.otf);
+}

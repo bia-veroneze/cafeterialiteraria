@@ -1,0 +1,116 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Belatty" , cursive;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url(../imagens/pexels-elle-hughes-2101150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+nav{
+    font-size: 50px;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    width: 100%;
+
+}
+
+.nav-link{
+    color: rgb(205, 0, 0);
+   
+}
+
+.dropdown-item{
+    color: rgb(205, 0, 0);
+    font-size: 30px;
+    
+}
+
+h1{
+    font-size: 90px;
+    margin-top:110px ;
+    text-align: center;
+    color: rgb(100, 0, 0);
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
+    font-family:"Belatty" , cursive;
+
+}
+
+h2{
+    color: black;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+p{
+    font-size: 35px;
+    color:black ;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.tamanho{
+    font-size: 40px;
+}
+
+.corfundo{
+    /* background-color: rgba(255, 228, 196, 0.9); */
+    background-color: rgba(222, 184, 135, 0.7);
+}
+
+.corfundo02{
+    background-color: rgba(255, 235, 205, 0.8); 
+    border-radius:5px;
+    margin: 7px;
+}
+
+.border{
+    border-color: rgba(250, 235, 215, 0);
+    border: 0;
+}
+
+.card-text{
+    font-size: 23px;
+}
+
+.zoom{
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.zoom::after{
+    content:"";
+    position:absolute;
+    opacity:1;
+    border-radius:5px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+.zoom:hover{
+    transform:scale(1.25,1.25);
+}
+
+.zoom:hover::after{
+    opacity:1;
+}
+
+.card-text{
+    font-size: 27px;
+}

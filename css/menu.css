@@ -1,0 +1,73 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url(../imagens/pexels-elle-hughes-2101150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.filtro{
+    filter: brightness(0,9);
+    background-color: rgba(255, 228, 196, 0.9);
+}
+
+.corzinha{
+    background-color: rgba(222, 184, 135, 0.9);
+}
+
+
+.nav-link{
+    color: rgb(205, 0, 0);
+}
+
+.dropdown-item{
+    color: rgb(205, 0, 0);
+    font-size: 25px;    
+}
+
+nav{
+    font-family: 'fonte01', cursive;
+    font-size: 50px;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    font-family: "Belatty" , cursive;
+}
+
+.ParagrafoUnico{
+    color: black;
+    text-shadow: 7px 7px 5px white;
+    font-size: 25px;
+}
+
+.TITULO{
+    color: black;
+}
+
+
+h1{
+    font-family: "Belatty" , cursive;
+    text-align: center;
+    color: snow;
+    text-shadow: 5px 5px 10px black;
+    font-size: 55px ;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+thead {
+    font-size: 18px;
+    font-family: "media" , cursive;
+}
+
+td{
+    font-size: 17px;
+    font-family: "regular" , serif;
+}

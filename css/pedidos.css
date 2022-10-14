@@ -1,0 +1,60 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../imagens/pexels-leah-kelley-851553.jpg);
+}
+
+
+.nav-link{
+    color: rgb(205, 0, 0);
+    font-family: "Belatty" , cursive;
+}
+
+.dropdown-item{
+    color: rgb(205, 0, 0);
+    font-size: 25px;
+    font-family: "Belatty" , cursive;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 5px 5px 15px black;
+    margin-top: 35px;
+    padding: 7px;
+    font-family: 'fonte01', 'Belatty', cursive;
+}
+
+nav{
+    font-family: 'fonte01', cursive;
+    font-size: 50px;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    font-family: "Belatty" , cursive;
+}
+
+form{
+    color: black;
+    text-shadow: 5px 5px 7px white;
+}
+
+.cores{
+    color: black;
+    text-shadow: 5px 5px 7px white;
+}
+
+label{
+    font-size: 17px;
+    font-family: "media" ,  serif;
+}

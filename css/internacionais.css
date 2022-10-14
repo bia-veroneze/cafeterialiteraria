@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Belatty" , cursive;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url(../imagens/pexels-elle-hughes-2101150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    font-size: 50px;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    width: 100%;
+}
+
+.nav-link{
+    color: rgb(205, 0, 0);
+}
+
+.dropdown-item{
+    color: rgb(205, 0, 0);
+    font-size: 30px;
+}   
